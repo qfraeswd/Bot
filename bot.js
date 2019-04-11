@@ -3027,7 +3027,7 @@ if (message.author.id !== '564414567946387487') return message.reply('** هذا 
 } else
 
 if (message.content.startsWith(prefix + 'setavatar')) {
-if (message.author.id !== '535043938889891851') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '564414567946387487') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setAvatar(argresult);
     message.channel.sendMessage(`**${argresult}** : تم تغير صورة البوت`);
 } else
